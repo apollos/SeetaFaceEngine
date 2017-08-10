@@ -5,7 +5,7 @@ project(seeta_facedet_lib)
 # Build options
 option(BUILD_EXAMPLES  "Set to ON to build examples"  ON)
 option(USE_OPENMP      "Set to ON to build use openmp"  ON)
-option(USE_SSE         "Set to ON to build use SSE"  ON)
+#option(USE_SSE         "Set to ON to build use SSE"  ON)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
 
